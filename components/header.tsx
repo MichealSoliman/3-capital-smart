@@ -6,13 +6,13 @@ import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import { useTranslations } from 'next-intl'
 import LanguageSwitcher from './LanguageSwitcher'
-
+import { useLocale } from "next-intl"
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isMachinesOpen, setIsMachinesOpen] = useState(false)
   const [isDoorsOpen, setIsDoorsOpen] = useState(false)
   const t = useTranslations('nav')
-
+const locale = useLocale(); 
   // Close all dropdowns when menu is closed
   const handleMenuClose = () => {
     setIsMenuOpen(false)
@@ -31,7 +31,7 @@ export default function Header() {
           <div className="flex justify-between items-center relative">
             {/* Logo and Company Name */}
             <div className="flex items-center gap-1.5 sm:gap-2 max-w-[180px] sm:max-w-[200px] md:max-w-none">
-              <Link href="/">
+              <Link href="/" locale={locale}>
                 <Image src="/logo2.png" alt="Logo" width={40} height={40} className="h-10 w-auto rounded-full" />
               </Link>
               <span className="font-bold text-[10px] sm:text-xs md:text-sm lg:text-base xl:text-lg truncate"> 3Capital  </span>
@@ -50,31 +50,31 @@ export default function Header() {
 
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex items-center gap-3 xl:gap-4 2xl:gap-6">
-              <Link href="/" className="font-semibold text-[#003B95] text-[13px] xl:text-[14px] 2xl:text-[15px] hover:text-[#003B95]/90 whitespace-nowrap">
+              <Link href="/" locale={locale} className="font-semibold text-[#003B95] text-[13px] xl:text-[14px] 2xl:text-[15px] hover:text-[#003B95]/90 whitespace-nowrap">
                 {t('home')}
               </Link>
-              <Link href="/about" className="font-medium text-[#1A1A1A] text-[13px] xl:text-[14px] 2xl:text-[15px] hover:text-[#003B95] whitespace-nowrap">
+              <Link href="/about" locale={locale} className="font-medium text-[#1A1A1A] text-[13px] xl:text-[14px] 2xl:text-[15px] hover:text-[#003B95] whitespace-nowrap">
                 {t('about')}
               </Link>
               {/* <Link href="/why-us" className="font-medium text-[#1A1A1A] text-[13px] xl:text-[14px] 2xl:text-[15px] hover:text-[#003B95] whitespace-nowrap">
                 {t('whyUs')}
               </Link> */}
-              <Link href="/services" className="font-medium text-[#1A1A1A] text-[13px] xl:text-[14px] 2xl:text-[15px] hover:text-[#003B95] whitespace-nowrap">
+              <Link href="/services" locale={locale} className="font-medium text-[#1A1A1A] text-[13px] xl:text-[14px] 2xl:text-[15px] hover:text-[#003B95] whitespace-nowrap">
                 {t('services')}
               </Link>
-              <Link href="/library" className="font-medium text-[#1A1A1A] text-[13px] xl:text-[14px] 2xl:text-[15px] hover:text-[#003B95] whitespace-nowrap">
+              <Link href="/library" locale={locale} className="font-medium text-[#1A1A1A] text-[13px] xl:text-[14px] 2xl:text-[15px] hover:text-[#003B95] whitespace-nowrap">
                 {t('library')}
               </Link>
-              <Link href="/financial" className="font-medium text-[#1A1A1A] text-[13px] xl:text-[14px] 2xl:text-[15px] hover:text-[#003B95] whitespace-nowrap">
+              <Link href="/financial" locale={locale} className="font-medium text-[#1A1A1A] text-[13px] xl:text-[14px] 2xl:text-[15px] hover:text-[#003B95] whitespace-nowrap">
                 {t('financial')}
               </Link>
-              <Link href="/hiring" className="font-medium text-[#1A1A1A] text-[13px] xl:text-[14px] 2xl:text-[15px] hover:text-[#003B95] whitespace-nowrap">
+              <Link href="/hiring" locale={locale} className="font-medium text-[#1A1A1A] text-[13px] xl:text-[14px] 2xl:text-[15px] hover:text-[#003B95] whitespace-nowrap">
                 {t('hiring')}
               </Link>
-              <Link href="/certificates" className="font-medium text-[#1A1A1A] text-[13px] xl:text-[14px] 2xl:text-[15px] hover:text-[#003B95] whitespace-nowrap">
+              <Link href="/certificates" locale={locale} className="font-medium text-[#1A1A1A] text-[13px] xl:text-[14px] 2xl:text-[15px] hover:text-[#003B95] whitespace-nowrap">
                 {t('certificates')}
               </Link>
-              <Link href="/contact" className="font-medium text-[#1A1A1A] text-[13px] xl:text-[14px] 2xl:text-[15px] hover:text-[#003B95] whitespace-nowrap">
+              <Link href="/contact" locale={locale} className="font-medium text-[#1A1A1A] text-[13px] xl:text-[14px] 2xl:text-[15px] hover:text-[#003B95] whitespace-nowrap">
                 {t('contact')}
               </Link>
               <div className="flex items-center whitespace-nowrap">
@@ -105,32 +105,32 @@ export default function Header() {
                     </button>
                   </div>
                   <nav className="flex flex-col gap-4">
-                    <Link href="/" className="font-semibold text-[#003B95] text-[14px] py-2" onClick={handleMenuClose}>
+                    <Link href="/" locale={locale} className="font-semibold text-[#003B95] text-[14px] py-2" onClick={handleMenuClose}>
                       {t('home')}
                     </Link>
-                    <Link href="/about" className="font-medium text-[#1A1A1A] text-[14px] py-2" onClick={handleMenuClose}>
+                    <Link href="/about" locale={locale} className="font-medium text-[#1A1A1A] text-[14px] py-2" onClick={handleMenuClose}>
                       {t('about')}
                     </Link>
                     {/* <Link href="/why-us" className="font-medium text-[#1A1A1A] text-[14px] py-2" onClick={handleMenuClose}>
                       {t('whyUs')}
                     </Link> */}
-                    <Link href="/services" className="font-medium text-[#1A1A1A] text-[14px] py-2" onClick={handleMenuClose}>
+                    <Link href="/services" locale={locale} className="font-medium text-[#1A1A1A] text-[14px] py-2" onClick={handleMenuClose}>
                       {t('services')}
                     </Link>
-                    <Link href="/library" className="font-medium text-[#1A1A1A] text-[14px] py-2" onClick={handleMenuClose}>
+                    <Link href="/library" locale={locale} className="font-medium text-[#1A1A1A] text-[14px] py-2" onClick={handleMenuClose}>
                       {t('library')}
                     </Link>
-                    <Link href="/financial" className="font-medium text-[#1A1A1A] text-[14px] py-2" onClick={handleMenuClose}>
+                    <Link href="/financial" locale={locale} className="font-medium text-[#1A1A1A] text-[14px] py-2" onClick={handleMenuClose}>
                       {t('financial')}
                     </Link>
-                    <Link href="/hiring" className="font-medium text-[#1A1A1A] text-[14px] py-2" onClick={handleMenuClose}>
+                    <Link href="/hiring" locale={locale} className="font-medium text-[#1A1A1A] text-[14px] py-2" onClick={handleMenuClose}>
                       {t('hiring')}
                     </Link>
                 
-                    <Link href="/certificates" className="font-medium text-[#1A1A1A] text-[14px] py-2" onClick={handleMenuClose}>
+                    <Link href="/certificates" locale={locale} className="font-medium text-[#1A1A1A] text-[14px] py-2" onClick={handleMenuClose}>
                       {t('certificates')}
                     </Link>
-                    <Link href="/contact" className="font-medium text-[#1A1A1A] text-[14px] py-2" onClick={handleMenuClose}>
+                    <Link href="/contact" locale={locale} className="font-medium text-[#1A1A1A] text-[14px] py-2" onClick={handleMenuClose}>
                       {t('contact')}
                     </Link>
                     <div className="mt-4">
