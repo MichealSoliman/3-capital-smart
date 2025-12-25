@@ -3,7 +3,7 @@ import withNextIntl from 'next-intl/plugin';
 const withNextIntlConfig = withNextIntl({
   locales: ['ar', 'en'],
   defaultLocale: 'ar',
-  localePrefix: 'as-needed'
+  localePrefix: true, // بدل 'as-needed'
 });
 
 /** @type {import('next').NextConfig} */
