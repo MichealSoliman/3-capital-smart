@@ -1,32 +1,48 @@
 import withNextIntl from 'next-intl/plugin';
 
 const withNextIntlConfig = withNextIntl({
-  locales: ['en', 'ar'],
-  defaultLocale: 'en',
+  locales: ['ar', 'en'],
+  defaultLocale: 'ar',
   localePrefix: 'as-needed'
 });
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true,
+  // ✅ Redirect إجباري للعربي
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/ar',
+        permanent: false
+      }
+    ];
   },
+
   typescript: {
     ignoreBuildErrors: true,
   },
+
   images: {
     unoptimized: true,
-    domains: ['images.unsplash.com'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+      },
+    ],
   },
+
   experimental: {
     webpackBuildWorker: true,
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
     serverActions: {
-      enabled: true
-    }
+      enabled: true,
+    },
   },
-  output: 'standalone'
-}
+
+  output: 'standalone',
+};
 
 export default withNextIntlConfig(nextConfig);
