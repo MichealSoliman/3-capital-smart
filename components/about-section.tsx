@@ -28,7 +28,7 @@ export default function AboutSection() {
         awards: 5,
         reviews: 15,
         projects: 23,
-        experience: 16
+        experience: 17
       }
 
       let currentStep = 0

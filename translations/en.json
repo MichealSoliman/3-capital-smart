@@ -18,7 +18,7 @@
     "welcome": "Welcome to",
     "title": "3Capital ",
     "subtitle": "Financial & Business Consulting",
-    "description": "We provide comprehensive consulting solutions in finance and investment, with over 16 years of experience in providing specialized financial consulting for companies and individuals, focusing on maximizing investment returns with minimal risks...",
+    "description": "We provide comprehensive consulting solutions in finance and investment, with over 17 years of experience in providing specialized financial consulting for companies and individuals, focusing on maximizing investment returns with minimal risks...",
     "bookConsultation": "Book Consultation",
     "investment": "Investment",
     "finance": "Finance",
@@ -29,7 +29,7 @@
     "title": "About Us",
     "badge": "About the Institution",
     "heading": "Who Are We?",
-    "description": "3Capital  Financial and Business Consulting was established to be one of the best professional companies in Egypt and the Middle East, comprising a distinguished group of certified accountants and consultants specialized in various financial and administrative fields. At 3Capital , we strive to provide the best consulting services through 'comprehensive solutions and multiple consulting solutions', and we continuously commit to transparency and dedication in building long-term business relationships to help you make the best business decisions with exceptional standards and in a timely manner.",
+    "description": "Founded as a firm of Certified Public Accountants and Financial & Tax Consultants, 3-Capital Office aims to be one of the leading professional institutions in Egypt and the Middle East, particularly in supporting small and medium-sized enterprises (SMEs). The firm brings together a distinguished team of certified accountants and consultants specializing in diverse financial and administrative fields.At 3-Capital, we strive to deliver the highest level of advisory services through comprehensive and integrated accounting and financial solutions, alongside a wide range of consulting services that rely on digital transformation and artificial intelligence applications. We are firmly committed to transparency and dedication in building long-term professional relationships, helping our clients make the best business decisions with exceptional standards and timely execution.",
     "stats": {
       "experience": "Years of Experience in Financial Consulting",
       "projects": "Completed Consulting Projects",
@@ -48,11 +48,11 @@
     "contactUs": "Contact Us",
     "heading": "We're always here to answer any questions you may have",
     "email": "Email",
-    "mobile": "Mobile Phone",
-    "phone": "Phone",
+    "mobile": "You can contact us from Saudi Arabia on this number",
+    "phone": "You can contact us from Egypt on this number",
     "workingHours": "Working-Hours",
     "hours": "8:00 AM - 5:00 PM",
-    "weekend": "Friday and Saturday closed"
+    "weekend": "Friday closed"
   },
   "footer": {
     "logoAlt": "   3Capital  logo",
@@ -115,7 +115,7 @@
         "description": "Providing integrated consulting solutions to improve administrative performance and develop operations"
       },
       "projectEvaluation": {
-        "title": "Project Evaluation",
+        "title": "Evaluating new companies and projects",
         "description": "Analysis and evaluation of investment projects with return rates and risk calculations"
       },
       "feasibilityStudies": {
@@ -390,22 +390,22 @@
       "article1": {
         "title": "The Importance of Financial Consulting in Investment Decision Making",
         "description": "How financial consulting can help make informed investment decisions and achieve financial success.",
-        "date": "March 15, 2024"
+        "date": "March 15, 2020"
       },
       "article2": {
         "title": "The Role of Virtual CFO in Consulting Business Development ",
         "description": "Explore how a Virtual CFO can contribute to business and Consulting growth and development.",
-        "date": "March 10, 2024"
+        "date": "May 1, 2022"
       },
       "article3": {
         "title": "Financial Planning Fundamentals for Startups",
         "description": "A comprehensive guide to effective financial planning for startups and entrepreneurs.",
-        "date": "March 5, 2024"
+        "date": "March 5, 2023"
       },
       "article4": {
         "title": "Digital Transformation in the Financial Sector",
         "description": "How digital transformation is changing the future of financial and advisory services.",
-        "date": "March 1, 2024"
+        "date": "March 1, 2022"
       },
       "article5": {
         "title": "Financial Risk Management Amid Economic Challenges",
@@ -415,7 +415,7 @@
       "article6": {
         "title": "The Importance of Due Diligence in Mergers and Acquisitions",
         "description": "The role of due diligence in ensuring successful mergers and acquisitions.",
-        "date": "February 20, 2024"
+        "date": "February 20, 2025"
       }
     }
   },
@@ -424,29 +424,30 @@
     "title": "What Our Clients Say About Us!",
     "subtitle": "Become a client now",
     "ctaButton": "Become a Client",
-    "items": [
-      {
-        "name": "Ahmed Al-Sudairi",
-        "type": "Hotel",
-        "content": "Financial consulting provided us with a clear vision for the future of our business. The advice was strategic and helped us achieve significant revenue growth.",
-        "date": "March 14, 2025",
-        "location": "Jeddah - Saudi Arabia"
-      },
-      {
-        "name": "Sarah Al-Qahtani",
-        "type": "Institution",
-        "content": "The financial consulting we received was highly professional. It helped us improve cash flow management and increase the efficiency of financial operations.",
-        "date": "March 14, 2025",
-        "location": "Dubai - United Arab Emirates"
-      },
-      {
-        "name": "Mohammed Al-Otaibi",
-        "type": "Company",
-        "content": "Thanks to specialized financial consulting, we were able to improve our cost structure and significantly increase profit margins. Excellent service and valuable recommendations.",
-        "date": "March 14, 2025",
-        "location": "Cairo - Arab Republic of Egypt"
-      }
-    ]
+   "items": [
+  {
+    "name": "Ahmed Al-Mansouri",
+    "type": "Hotel",
+    "content": "The financial consulting services helped us build a clear and practical vision for developing our business. The guidance was precise and based on in-depth analysis, which directly contributed to revenue growth.",
+    "date": "January 22, 2024",
+    "location": "Riyadh – Kingdom of Saudi Arabia"
+  },
+  {
+    "name": "Naglaa Hassan",
+    "type": "Company",
+    "content": "We received highly professional financial support that helped us reorganize our financial policies and improve cash flow management, leading to a significant increase in overall financial efficiency.",
+    "date": "November 5, 2024",
+    "location": "Jeddah – Kingdom of Saudi Arabia"
+  },
+  {
+    "name": "Karim Abdullah",
+    "type": "Company",
+    "content": "The consulting services played a major role in optimizing cost structures and enhancing profitability. A highly experienced team with a clear financial vision.",
+    "date": "February 18, 2025",
+    "location": "Cairo – Arab Republic of Egypt"
+  }
+]
+
   },
   "certificatesPage": {
     "pageTitle": "Certificate Registration",
@@ -611,7 +612,7 @@
       "name": "Sameh Said , CMA",
       "position": "Founder and CEO",
       "experienceTitle": "Professional and Academic Experience:",
-      "experience": "More than 16 years of experience in business, corporate finance, and financial consulting."
+      "experience": "More than 17 years of experience in business, corporate finance, and financial consulting."
     }
   },
   "financialPage": {

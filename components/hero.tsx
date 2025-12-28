@@ -91,7 +91,7 @@ export default function Hero() {
                       }}
                     >
                       <span className="text-[#05509F] font-semibold text-sm">
-                        +500
+                        +200
                       </span>
                     </div>
                     {["/img4.png", "/img.png", "/img2.png", "/img.png"].map(

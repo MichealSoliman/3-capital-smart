@@ -100,7 +100,7 @@ export default function HiringPage() {
               </div>
               <p className="text-[#475467] text-lg leading-8 mb-6">
                 {t('career.description')}
-                <a href="mailto:careers@CapitalSmartFBP.com" className="text-primary font-bold hover:underline"> careers@CapitalSmartFBP.com</a>
+                <a href="mailto:Career@3capital-advisory.com" className="text-primary font-bold hover:underline"> Career@3capital-advisory.com</a>
               </p>
             </motion.div>
 
@@ -118,7 +118,7 @@ export default function HiringPage() {
               </div>
               <p className="text-[#475467] text-lg leading-8 mb-6">
                 {t('training.description')}
-                <a href="mailto:careers@CapitalSmartFBP.com" className="text-primary font-bold hover:underline"> careers@CapitalSmartFBP.com</a>
+                <a href="mailto:Customercare@3capital-advisory.com" className="text-primary font-bold hover:underline"> Customercare@3capital-advisory.com</a>
               </p>
               {/* Certificates Section */}
               {/* Certificates Section */}

@@ -44,7 +44,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h3 className="text-primary font-bold text-lg"> {t('mobile')}</h3>
-                    <p className="text-[#475467]">+20 1029700534</p>
+                    <p className="text-[#475467]">966543743031</p>
                   </div>
                 </div>
 
@@ -56,7 +56,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h3 className="text-primary font-bold text-lg">{t('phone')}</h3>
-                    <p className="text-[#475467]">+02 01029700534</p>
+                    <p className="text-[#475467]">00201029700534 </p>
                   </div>
                 </div>
 
