@@ -212,6 +212,31 @@ export default function HiringPage() {
                 </div>
               </div>
             </motion.div>
+            <motion.div
+              whileHover={{ scale: 1.02 }}
+              className="w-full max-w-3xl bg-white rounded-[40px] p-8 shadow-xl border border-gray-100 relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-full -z-10" />
+              <div className="absolute bottom-0 left-0 w-32 h-32 bg-primary/5 rounded-full -z-10" />
+
+              <div className="flex flex-col items-center text-center relative z-10">
+                <div className="w-24 h-24 bg-primary/10 rounded-full flex items-center justify-center mb-6">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 15C15.866 15 19 11.866 19 8C19 4.13401 15.866 1 12 1C8.13401 1 5 4.13401 5 8C5 11.866 8.13401 15 12 15Z" stroke="#EC2127" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M8.21 13.89L7 23L12 20L17 23L15.79 13.88" stroke="#EC2127" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                </div>
+
+                <h3 className="text-primary text-[24px] font-bold mb-2">{t('teamMember-2.name')}</h3>
+                <p className="text-[#475467] text-lg mb-6">{t('teamMember-2.position')}</p>
+
+                <div className="w-full max-w-[600px] bg-[#FAFAFA] rounded-2xl p-6">
+                  <h4 className="text-primary text-[20px] font-bold mb-4">{t('teamMember-2.experienceTitle')}</h4>
+                  <ul className="list-disc list-inside text-[#475467] text-lg leading-8">
+                    <li>{t('teamMember-2.experience')}</li>
+                  </ul>
+                </div>
+              </div>
+            </motion.div>
           </motion.div>
         </div>
       </section>
