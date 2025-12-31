@@ -7,7 +7,12 @@ import { Link } from "@/lib/navigation";
 import ContactSection from "@/components/contact-section";
 import { useTranslations } from 'next-intl';
 import { useLocale } from 'next-intl';
-import CertificateRegistrationForm from "@/components/certificate-registration-form";
+import { motion } from "framer-motion";
+
+
+
+
+
 
 export default function CertificatesPage() {
   const t = useTranslations('certificatesPage');
@@ -51,8 +56,7 @@ export default function CertificatesPage() {
         </div>
       </section>
 
-      {/* Certificate Registration Form */}
-      <CertificateRegistrationForm />
+   
 
       {/* Contact Section */}
       <ContactSection />

@@ -12,6 +12,7 @@ import { motion } from "framer-motion";
 import ContactSection from "@/components/contact-section";
 import { useTranslations } from 'next-intl';
 import { useLocale } from 'next-intl';
+import CertificateRegistrationForm from "@/components/certificate-registration-form";
 
 
 export default function HiringPage() {
@@ -160,6 +161,9 @@ export default function HiringPage() {
           </motion.div>
         </div>
       </section>
+
+        {/* Certificate Registration Form */}
+      <CertificateRegistrationForm />
       {/* Team Section */}
       <section className="py-16 bg-gradient-to-b from-[#FAFAFA] to-white">
         <div className="container mx-auto px-4 lg:px-[100px]">

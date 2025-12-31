@@ -6,7 +6,7 @@
   "nav": {
     "logo": "/LOGO EN.png",
     "brand": "3Capital",
-    "subtitle": "Certified Public Accountants and Financial Advisors",
+    "subtitle": "Certified Public Accountants and Financial Consultants",
     "home": "Home",
     "about": "About",
     "services": "Services",
@@ -14,13 +14,13 @@
     "whyUs": "Why Us",
     "library": "Library",
     "financial": "Financial Consulting",
-    "hiring": "Our team",
-    "certificates": "hiring"
+    "hiring": "hiring",
+    "certificates": "Our team"
   },
   "hero": {
     "welcome": "Welcome to",
     "title": "3Capital ",
-    "subtitle": "Certified Public Accountants, Financial and Tax Consultants",
+    "subtitle": "Certified Public Accountants and Financial Consultants",
     "description": "We offer integrated and intelligent consulting solutions in the fields of accounting, auditing, taxation, finance and investment, with over 17 years of experience in providing specialized financial advice to companies and individuals, focusing on achieving maximum return on investment with the lowest possible risk...",
     "bookConsultation": "Book Consultation",
     "investment": "Investment",
@@ -51,8 +51,8 @@
     "contactUs": "Contact Us",
     "heading": "We're always here to answer any questions you may have",
     "email": "Email",
-    "mobile": "mobile",
-    "phone": "phone",
+    "mobile": "Call us from Saudi Arabia on this number",
+    "phone": "Call us from the Arab Republic of Egypt on this number",
     "workingHours": "Working-Hours",
     "hours": "8:00 AM - 5:00 PM",
     "weekend": "Friday closed"
@@ -102,7 +102,7 @@
         "description": "Budget planning, cash flow analysis, financial compliance monitoring, and internal controls evaluation"
       },
       "virtualCFO": {
-        "title": "Virtual CFO",
+        "title": "CFO Services",
         "description": "Providing comprehensive financial expertise and reports to develop financial, operational, and risk management strategies"
       },
       "dueDiligence": {
@@ -142,7 +142,7 @@
         "description": "Implementation of financial mergers and acquisitions procedures"
       },
       "erpImplementation": {
-        "title": "ERP Implementation",
+        "title": "Implementing ERP Systems - The Right One for Your Company",
         "description": "Implementing ERP systems and digital transformation for companies, transitioning from traditional systems to digital processes for financial, administrative, and operational reporting, increasing work efficiency, improving decision-making, and reducing production costs"
       },
       "establishingCompanies": {
@@ -415,27 +415,27 @@
       "article1": {
         "title": "The Importance of Financial Consulting in Investment Decision Making",
         "description": "How financial consulting can help make informed investment decisions and achieve financial success.",
-        "date": "March 15, 2020"
+        "date": "March 15, 2025"
       },
       "article2": {
         "title": "The Role of Virtual CFO in Consulting Business Development ",
         "description": "Explore how a Virtual CFO can contribute to business and Consulting growth and development.",
-        "date": "May 1, 2022"
+        "date": "May 1, 2025"
       },
       "article3": {
         "title": "Financial Planning Fundamentals for Startups",
         "description": "A comprehensive guide to effective financial planning for startups and entrepreneurs.",
-        "date": "March 5, 2023"
+        "date": "March 5, 2025"
       },
       "article4": {
         "title": "Digital Transformation in the Financial Sector",
         "description": "How digital transformation is changing the future of financial and advisory services.",
-        "date": "March 1, 2022"
+        "date": "March 1, 2025"
       },
       "article5": {
         "title": "Financial Risk Management Amid Economic Challenges",
         "description": "Effective strategies for managing financial risks in changing economic environments.",
-        "date": "February 25, 2024"
+        "date": "February 25, 2025"
       },
       "article6": {
         "title": "The Importance of Due Diligence in Mergers and Acquisitions",
@@ -681,8 +681,8 @@
       "badge": "About the Institution",
       "title": "Who Are We?",
       "imageAlt": "About Us Image",
-      "paragraph1": "We are a specialized financial consulting company providing professional financial consulting for Egyptian businesses and GCC countries. Our services are designed by financial experts, ensuring reliable outsourced accounting and financial services, helping clients develop enhanced business strategies.",
-      "paragraph2": "Our unique approach goes beyond traditional business, offering a comprehensive range of services to meet all client needs. Through collaboration and innovation, we aim to drive growth and excellence. Our key business units include: Consulting, Legal and Tax, Audit and Accounting, ERP Implementation, Digital Transformation, and Strategy."
+        "paragraph1": "We are a firm of certified accountants and specialized financial consultants providing auditing services in the Arab Republic of Egypt and professional financial consulting for Egyptian companies and the GCC countries. Our services are designed by financial experts, ensuring the reliability of accounting and outsourced financial services, helping clients develop outstanding business strategies.",
+        "paragraph2": "Our unique approach goes beyond traditional business, offering a comprehensive range of services to meet all client needs. Through collaboration and innovation, we aim to drive growth and excellence. Our main business units include: Consulting, Legal & Tax, Auditing & Accounting, ERP Implementation, Digital Transformation, and Strategy."
     },
     "vision": {
       "badge": "Vision",

@@ -78,24 +78,33 @@ export default function ContactSection() {
 
           {/* Map Side */}
           <div className="relative w-full h-[300px] md:h-[400px] lg:h-[600px] order-1 lg:order-2 rounded-[80px] box-shadow-[0px_0px_10px_0px_rgba(0,0,0,0.1)] overflow-hidden">
-            <div className="absolute inset-0">
-              <div className="relative w-full h-full">
-                <img 
-                  src="/maps.png" 
-                  alt="Location Map" 
-                  className="absolute inset-0 w-full h-full object-cover"
-                />
-                <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
-                  <div className="relative">
-                    <div className="absolute -inset-32 bg-primary/5 rounded-full blur-[100px]" />
-                    <div className="absolute -inset-16 bg-primary/10 rounded-full blur-[50px]" />
-                    <div className="relative w-20 h-20 rounded-full bg-primary/20" />
-                    <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-4 h-4 rounded-full bg-primary" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+  <div className="absolute inset-0">
+    <div className="relative w-full h-full">
+      {/* Google Map Embed */}
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.783211839568!2d39.17777581524808!3d21.597939185691883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c3d9391d85e5c9%3A0x0!2zMjHCsDM1JzMxLjIiTiAzOcKwMTAnMTIuOSJF!5e0!3m2!1sar!2seg!4v1704067200000!5m2!1sar!2seg"
+        width="100%"
+        height="100%"
+        className="absolute inset-0 w-full h-full object-cover rounded-[80px]"
+        style={{ border: 0 }}
+        allowFullScreen={false}
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+      ></iframe>
+
+      {/* Overlay effects */}
+      <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+        <div className="relative">
+          <div className="absolute -inset-32 bg-primary/5 rounded-full blur-[100px]" />
+          <div className="absolute -inset-16 bg-primary/10 rounded-full blur-[50px]" />
+          <div className="relative w-20 h-20 rounded-full bg-primary/20" />
+          <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-4 h-4 rounded-full bg-primary" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
         </div>
       </div>
     </section>

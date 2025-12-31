@@ -132,14 +132,14 @@ export default function ProjectsSection({ showButton = true }: { showButton?: bo
                 <div className="absolute inset-0 bg-black/35 transition-opacity group-hover:bg-black/50"></div>
                 <img src={service.image} alt={service.alt} className="w-full h-full object-cover rounded-[80px]" />
 
-                <div className="absolute top-6 right-6 py-2 px-4">
+                {/* <div className="absolute top-6 right-6 py-2 px-4">
                   <div className="bg-white rounded-[12px] py-1 px-3 flex flex-col items-center gap-1 shadow-md transform transition-transform duration-300 hover:scale-110">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="#FFB81F">
                       <path d="M12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27Z" />
                     </svg>
                     <span className="text-[#05509F] font-extrabold text-xs sm:text-sm">4.9</span>
                   </div>
-                </div>
+                </div> */}
                 <Link href="/services">
                   <img src="/arow1.png" alt="arrow-right" className="w-12 h-12 absolute bottom-6 left-6" />
                 </Link>
