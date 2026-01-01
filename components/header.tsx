@@ -32,14 +32,14 @@ export default function Header() {
         <div className="container mx-auto px-3 sm:px-4 py-2 sm:py-3 md:py-4">
           <div className="flex justify-between items-center relative">
             {/* Logo and Company Name */}
-       <div className="flex items-center gap-1.5 sm:gap-2  max-w-[250px] sm:max-w-[250px] md:max-w-none">
+       <div className="flex items-center gap-1.5 sm:gap-2  max-w-[100px] sm:max-w-[100px] md:max-w-none">
       <Link href={`/${locale}`}>
         <Image
           src={t('logo')}
           alt="Logo"
           width={50}
           height={50}
-          className="h-[100px]  w-[100px] rounded-full"
+          className="h-[100px]  w-[220px] "
           priority
         />
       </Link>

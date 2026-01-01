@@ -2,7 +2,7 @@
 import React from "react"
 import { Button } from "@/components/ui/button"
 import { useTranslations } from 'next-intl'
-
+import { FaWhatsapp } from 'react-icons/fa';
 export default function ContactSection() {
   const t = useTranslations('contact')
 
@@ -59,6 +59,21 @@ export default function ContactSection() {
                     <p className="text-[#475467]">2010297005340+ </p>
                   </div>
                 </div>
+                <div className="flex items-center justify-start gap-3 p-4 bg-[#F8FAFC] rounded-[20px] hover:bg-[#EBF2F9] transition-colors">
+                  <a
+                    href="https://wa.me/966543743031"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-3">
+                    <div className="bg-[#25D366] p-3 rounded-full text-white">
+                      <FaWhatsapp size={24} />
+                    </div>
+                    <div>
+                      <h3 className="text-primary font-bold text-lg">{t('whatsapp')}</h3>
+                      <p className="text-[#475467]">966543743031</p>
+                    </div>
+                  </a>
+                    </div>
 
                 <div className="flex items-center justify-start gap-3 p-4 bg-[#F8FAFC] rounded-[20px] hover:bg-[#EBF2F9] transition-colors">
                   <div className="bg-[#EBF2F9] p-3 rounded-full">
