@@ -638,13 +638,22 @@
       "name": "Sameh Said , CMA",
       "position": "Founder and CEO",
       "experienceTitle": "Professional and Academic Experience:",
-      "experience": "More than 17 years of experience in business, corporate finance, and financial consulting."
+      "experience": "More than 17 years of experience in business, corporate finance, and financial consulting.",
+         "image": "../Saeed.jpeg"
     },
     "teamMember-2": {
-      "name": "Mahmoud Mohamed Abdou , CPA , CMA, DipIFRS",
-      "position": "Trusted financial expert",
+      "name": "Mahmoud Mohamed Abdou, CPA, CMA, DipIFRS",
+      "position": "Financial Advisor",
       "experienceTitle": "Professional and Academic Experience:",
-      "experience": "Mahmoud is a trusted financial expert with over 15 years of experience in financial reporting, budgeting, financial management, and management consulting. He advises executive management and business leaders on optimizing financial performance and supporting informed strategic decision-making."
+      "experience": "Mahmoud Mohamed Abdou is a seasoned Financial Advisor with over 15 years of experience working with Big 4 and Big 10 audit firms in KSA, as well as large and multinational companies. He specializes in financial reporting, budgeting, financial management, and management consulting.Mahmoud has advised executive management and business leaders across publicly listed entities and multinational organizations, supporting informed strategic decision-making and optimizing financial performance. His expertise includes complex accounting matters, IFRS implementation, financial analysis, and advisory services, along with strong knowledge of tax laws and regulations.He is recognized for his ability to translate complex financial and accounting challenges into practical insights that drive sustainable growth and long-term value creation.",
+       "image": "../Saeed.jpeg"
+    },
+    "teamMember-3": {
+      "name": "Saeed  Abdel Fattah, CMA Candidate",
+      "position": "Accounting & Financial Consultant",
+      "experienceTitle": "Professional and Academic Experience:",
+      "experience": "Saeed  Abdel Fattah is an accounting and finance professional with 14 years Experience in KSA, Egypt with solid experience in financial reporting, accounting operations, and IFRS-based practices. He has worked with large industrial organizations, supporting effective financial control, accurate reporting, and sound financial management. As a CMA Candidate, he brings a strong management accounting mindset to advisory and consulting engagements.",
+         "image": "../Saeed.jpeg"
     },
     "partners": {
   "label": "Partners",
