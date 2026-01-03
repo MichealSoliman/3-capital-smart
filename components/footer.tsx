@@ -88,7 +88,7 @@ export default function Footer() {
             </Link>
 
             <Link
-              href="https://wa.me/966543743031"
+              href="https://wa.me/2010297005340"
               target="_blank"
               rel="noopener noreferrer"
               className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-[#05509F] flex items-center justify-center transition-colors"

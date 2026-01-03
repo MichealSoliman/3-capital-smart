@@ -36,7 +36,7 @@ export default function ContactSection() {
                   </div>
                 </div>
 
-                <div className="flex items-center justify-start gap-3 p-4 bg-[#F8FAFC] rounded-[20px] hover:bg-[#EBF2F9] transition-colors">
+                {/* <div className="flex items-center justify-start gap-3 p-4 bg-[#F8FAFC] rounded-[20px] hover:bg-[#EBF2F9] transition-colors">
                   <div className="bg-[#EBF2F9] p-3 rounded-full">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M20 15.5C18.8 15.5 17.5 15.3 16.4 14.9C16.3 14.9 16.2 14.9 16.1 14.9C15.8 14.9 15.6 15 15.4 15.2L13.2 17.4C10.4 15.9 8 13.6 6.6 10.8L8.8 8.6C9.1 8.3 9.2 7.9 9 7.6C8.7 6.5 8.5 5.2 8.5 4C8.5 3.5 8 3 7.5 3H4C3.5 3 3 3.5 3 4C3 13.4 10.6 21 20 21C20.5 21 21 20.5 21 20V16.5C21 16 20.5 15.5 20 15.5ZM5.03 5H6.53C6.6 5.88 6.75 6.75 6.99 7.59L5.79 8.79C5.38 7.59 5.12 6.32 5.03 5ZM19 18.97C17.68 18.88 16.4 18.62 15.2 18.21L16.4 17.01C17.25 17.25 18.12 17.4 19 17.47V18.97Z" fill="#05509F"/>
@@ -44,9 +44,9 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h3 className="text-primary font-bold text-lg"> {t('mobile')}</h3>
-                    <p className="text-[#475467]">966543743031+</p>
+                    <p className="text-[#475467]">+</p>
                   </div>
-                </div>
+                </div> */}
 
                 <div className="flex items-center justify-start gap-3 p-4 bg-[#F8FAFC] rounded-[20px] hover:bg-[#EBF2F9] transition-colors">
                   <div className="bg-[#EBF2F9] p-3 rounded-full">
@@ -61,7 +61,7 @@ export default function ContactSection() {
                 </div>
                 <div className="flex items-center justify-start gap-3 p-4 bg-[#F8FAFC] rounded-[20px] hover:bg-[#EBF2F9] transition-colors">
                   <a
-                    href="https://wa.me/966543743031"
+                    href="https://wa.me/2010297005340"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-3">
@@ -70,7 +70,7 @@ export default function ContactSection() {
                     </div>
                     <div>
                       <h3 className="text-primary font-bold text-lg">{t('whatsapp')}</h3>
-                      <p className="text-[#475467]">966543743031</p>
+                      <p className="text-[#475467]">010297005340</p>
                     </div>
                   </a>
                     </div>
